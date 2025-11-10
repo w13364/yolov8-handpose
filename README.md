@@ -52,7 +52,10 @@ $ cmake ..
 $ make -j4
 ```
 
-模型必须保持４层，原因是rknn不支持yolo一层输出，会裁减掉yolo的cfl。
+onnx导出必须用rknn官网的导，必须要导出４层。onnx导出至你对应的rknn版本。
+
+
+模型输出必须保持４层，原因是rknn不支持yolo一层输出，会裁减掉yolo的cfl。
 
 <img width="740" height="477" alt="图片" src="https://github.com/user-attachments/assets/e33b4272-53d8-41ba-b780-4ab88a7e8628" />
 
