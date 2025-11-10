@@ -1,0 +1,3 @@
+/home/cat/YoloV8-NPU-pose/build/CMakeFiles/rebuild_cache.dir
+/home/cat/YoloV8-NPU-pose/build/CMakeFiles/edit_cache.dir
+/home/cat/YoloV8-NPU-pose/build/CMakeFiles/YoloV8_NPU.dir
