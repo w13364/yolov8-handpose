@@ -52,8 +52,13 @@ $ cmake ..
 $ make -j4
 ```
 
-onnx导出必须用rknn官网的导，必须要导出４层。onnx导出至你对应的rknn版本。
+onnx导出必须用rknn官网的导，必须要导出４层。
 
+用这两个文件导出你对应的rknn版本。
+
+connx.py
+
+convertrknn.py
 
 模型输出必须保持４层，原因是rknn不支持yolo一层输出，会裁减掉yolo的cfl。
 
