@@ -60,6 +60,7 @@ onnx导出必须用rknn官网的导，必须要导出４层。onnx导出至你�
 <img width="740" height="477" alt="图片" src="https://github.com/user-attachments/assets/e33b4272-53d8-41ba-b780-4ab88a7e8628" />
 
 cpp代码运行示例，帧率问题可以进一步改进，要做其他事情暂时只demo了。
+
 ./YoloV8_NPU rk3568/v8hand.rknn <你自己的图片路径>
 
 <img width="339" height="254" alt="图片" src="https://github.com/user-attachments/assets/232b94dc-f168-489f-8456-ae64cc2709aa" />
